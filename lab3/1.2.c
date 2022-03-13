@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 double najmniejsza(double x, double y, double z){
-    if(x > y){
-        if(x > z)
+    if(x < y){
+        if(x < z)
             return x;
         else
             return z;
-    }else if(y > z)
+    }else if(y < z)
         return y;
     else
         return z;
@@ -17,7 +17,7 @@ double srednia(double x, double y, double z){
 double potega(double x, int y){
     double wynik = 1;
     for(int i = 0; i < y; i++){
-        wynik += x;
+        wynik *= x;
     }
     return wynik;
 }
