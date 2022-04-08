@@ -1,1 +1,1 @@
-Tomasz Bloch, 1, 08.04.2022, kolokwium nr 1, programowanie strukturalne
+Tomasz Bloch, grupa 1 IO, 08.04.2022, kolokwium nr 1, programowanie strukturalne
